@@ -1,0 +1,76 @@
+/*Toto je komentar, slouzi pouze pro poznamky. Svoje styly piste pod nej*/
+/*Napriklad:*/
+/*h1 { color: red; }*/
+html, body{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Verdana, Arial, Courier, sans-serif;
+}
+
+nav{
+	margin-top:40px;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	font-family: Arial;
+	background-color: #A359AF;	
+}
+
+section{
+	margin:auto;
+	padding:10px;
+	width:70%;
+}
+
+blockquote{
+	font-style:italic;
+	padding-left:0;
+}
+
+h5{
+	margin-left: 50px;
+}
+
+aside{
+	float:left;
+	width:30%;
+}
+
+article{
+	float:right;
+	width:70%;
+}
+
+footer{
+	position:fixed;
+	bottom:0;
+}
+
+ul{
+	width: 440px;
+	margin: auto;
+	list-style:none;
+}
+
+li{ 
+	display: inline-block;
+	font-weight:50px;
+	padding:30px;
+}
+
+
+img{
+	width:250px;
+	margin:10px;
+	border-radius:10px;
+	box-shadow: black 4px 2px 10px;
+}
+
+.uvodnifotka img{
+	width:80%;
+}
+
+
